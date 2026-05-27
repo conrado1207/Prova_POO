@@ -18,27 +18,33 @@ public class Professor extends Pessoa
         Array_Disciplina = array_Disciplina;
     }
 
-    public String getAnoDeFormacao() {
+    public String getAnoDeFormacao()
+    {
         return anoDeFormacao;
     }
 
-    public void setAnoDeFormacao(String anoDeFormacao) {
+    public void setAnoDeFormacao(String anoDeFormacao)
+    {
         this.anoDeFormacao = anoDeFormacao;
     }
 
-    public String getEmail() {
+    public String getEmail()
+    {
         return email;
     }
 
-    public void setEmail(String email) {
+    public void setEmail(String email)
+    {
         this.email = email;
     }
 
-    public int getAnoDeAdmissao() {
+    public int getAnoDeAdmissao()
+    {
         return anoDeAdmissao;
     }
 
-    public void setAnoDeAdmissao(int anoDeAdmissao) {
+    public void setAnoDeAdmissao(int anoDeAdmissao)
+    {
         this.anoDeAdmissao = anoDeAdmissao;
     }
 

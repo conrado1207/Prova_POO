@@ -13,27 +13,33 @@ public class Aluno extends Pessoa
         this.turma = turma;
     }
 
-    public int getMatricula() {
+    public int getMatricula()
+    {
         return matricula;
     }
 
-    public void setMatricula(int matricula) {
+    public void setMatricula(int matricula)
+    {
         this.matricula = matricula;
     }
 
-    public int getAnoIngressao() {
+    public int getAnoIngressao()
+    {
         return anoIngressao;
     }
 
-    public void setAnoIngressao(int anoIngressao) {
+    public void setAnoIngressao(int anoIngressao)
+    {
         this.anoIngressao = anoIngressao;
     }
 
-    public Turma getTurma() {
+    public Turma getTurma()
+    {
         return turma;
     }
 
-    public void setTurma(Turma turma) {
+    public void setTurma(Turma turma)
+    {
         this.turma = turma;
     }
 }

@@ -18,27 +18,33 @@ public class Disciplina extends Pessoa
     }
 
 
-    public String getNomeDisciplina() {
+    public String getNomeDisciplina()
+    {
         return nomeDisciplina;
     }
 
-    public void setNomeDisciplina(String nomeDisciplina) {
+    public void setNomeDisciplina(String nomeDisciplina)
+    {
         this.nomeDisciplina = nomeDisciplina;
     }
 
-    public int getCargaHoraria() {
+    public int getCargaHoraria()
+    {
         return CargaHoraria;
     }
 
-    public void setCargaHoraria(int cargaHoraria) {
+    public void setCargaHoraria(int cargaHoraria)
+    {
         CargaHoraria = cargaHoraria;
     }
 
-    public int getCodigo() {
+    public int getCodigo()
+    {
         return codigo;
     }
 
-    public void setCodigo(int codigo) {
+    public void setCodigo(int codigo)
+    {
         this.codigo = codigo;
     }
 

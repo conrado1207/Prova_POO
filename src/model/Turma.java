@@ -21,35 +21,43 @@ public class Turma extends Aluno
     }
 
 
-    public int getCodigoturma() {
+    public int getCodigoturma()
+    {
         return codigoturma;
     }
 
-    public void setCodigoturma(int codigoturma) {
+    public void setCodigoturma(int codigoturma)
+    {
         this.codigoturma = codigoturma;
     }
 
-    public Disciplina getDisciplina() {
+    public Disciplina getDisciplina()
+    {
         return disciplina;
     }
 
-    public void setDisciplina(Disciplina disciplina) {
+    public void setDisciplina(Disciplina disciplina)
+    {
         this.disciplina = disciplina;
     }
 
-    public Professor getProfessor() {
+    public Professor getProfessor()
+    {
         return professor;
     }
 
-    public void setProfessor(Professor professor) {
+    public void setProfessor(Professor professor)
+    {
         this.professor = professor;
     }
 
-    public int getAnoLetivo() {
+    public int getAnoLetivo()
+    {
         return anoLetivo;
     }
 
-    public void setAnoLetivo(int anoLetivo) {
+    public void setAnoLetivo(int anoLetivo)
+    {
         this.anoLetivo = anoLetivo;
     }
 
