@@ -1,7 +1,7 @@
 package model;
 import java.util.ArrayList;
 
-public class Disciplina extends Pessoa
+public class Disciplina
 {
     private String nomeDisciplina;
     private int CargaHoraria;
@@ -9,8 +9,8 @@ public class Disciplina extends Pessoa
 
     public ArrayList<Professor> Array_Professor = new ArrayList<>();
 
-    public Disciplina(String nome, String telefone, endereco endereco, String nomeDisciplina, int cargaHoraria, int codigo, ArrayList<Professor> array_Professor) {
-        super(nome, telefone, endereco);
+    public Disciplina(String nome, String telefone, endereco endereco, String nomeDisciplina, int cargaHoraria, int codigo, ArrayList<Professor> array_Professor)
+    {
         this.nomeDisciplina = nomeDisciplina;
         CargaHoraria = cargaHoraria;
         this.codigo = codigo;
